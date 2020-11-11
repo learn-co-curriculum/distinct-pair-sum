@@ -2,7 +2,7 @@
 
 **Fork and then clone me!**
 
-Given an input Array and a target value `k`, return all distinct pairs of consecutive numbers that add up to `k`. A pair is distinct if no other pair contains the same numbers.
+Given an input Array and a target value `k`, return all distinct pairs of consecutive numbers that add up to `k`. A pair is distinct if no other pair contains the same numbers. The order of the pairs and order of the values in each pair does not matter, e.g. we consider [[2, 8], [7, 3]] to be the same as [[3, 7], [8, 2]].
 
 ```
 Input: [0, 1, 1, 2, 0, 1, 1], 2

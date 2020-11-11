@@ -1,15 +1,15 @@
-def distinct_pair_sum(arg)
+def distinct_pair_sum(arr, k)
   # type your code in here
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts "Expecting: 3"
-  puts distinct_pair_sum([2, 1, 3, 3, 2])
+  puts "Expecting: [[1, 1], [2, 0]]"
+  print distinct_pair_sum([0, 1, 1, 2, 0, 1, 1], 2)
 
   puts
 
-  puts "Expecting: -1"
-  puts distinct_pair_sum([1, 2, 3, 4])
+  puts "Expecting: [[2, 8]]"
+  print distinct_pair_sum([3, 4, 2, 1, 5, 2, 8, 2], 10)
 
   # Don't forget to add your own!
 end

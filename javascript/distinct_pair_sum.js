@@ -4,13 +4,13 @@ function distinctPairSum(arr, k) {
 
 if (require.main === module) {
   // add your own tests in here
-  console.log("Expecting: 3");
-  console.log(distinctPairSum([2, 1, 3, 3, 2]));
+  console.log("Expecting: [[1, 1], [2, 0]]");
+  console.log(distinctPairSum([0, 1, 1, 2, 0, 1, 1], 2));
 
   console.log("");
 
-  console.log("Expecting: -1");
-  console.log(distinctPairSum([1, 2, 3, 4]));
+  console.log("Expecting: [[2, 8]]");
+  console.log(distinctPairSum([3, 4, 2, 1, 5, 2, 8, 2], 10));
 }
 
 module.exports = distinctPairSum;
