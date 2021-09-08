@@ -1,10 +1,19 @@
 # Bonus 4: Distinct Pair Sum
 
-**Fork and then clone me!**
+## Learning Goals
 
-Given an input Array and a target value `k`, return all distinct pairs of consecutive numbers that add up to `k`. A pair is distinct if no other pair contains the same numbers. The order of the pairs and order of the values in each pair does not matter, e.g. we consider [[2, 8], [7, 3]] to be the same as [[3, 7], [8, 2]].
+- Practice algorithmic problem solving
 
-```
+## Instructions
+
+Given an input array and a target value `k`, return all distinct pairs of
+**consecutive numbers** that add up to `k`. A pair is distinct if no other pair
+contains the same numbers.
+
+The order of the pairs and order of the values in each pair does not matter,
+e.g. we consider `[[2, 8], [7, 3]]` to be the same as `[[3, 7], [8, 2]]`.
+
+```txt
 Input: [0, 1, 1, 2, 0, 1, 1], 2
 Output: [[1, 1], [2, 0]]
 
@@ -12,9 +21,10 @@ Input: [3, 4, 2, 1, 5, 2, 8, 2], 10
 Output: [[2, 8]]
 ```
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
