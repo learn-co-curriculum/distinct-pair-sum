@@ -1,13 +1,13 @@
-def distinct_pair_sum(list, k):
+def distinct_pair_sum(nums, k):
 
     pairs = {}
 
-    for i in range(len(list) - 1):
-        if list[i] + list[i + 1] == k:
-            if list[i] not in pairs and list[i + 1] not in pairs:
-                pairs[list[i]] = [list[i], list[i + 1]]
+    for i in range(len(nums) - 1):
+        if nums[i] + nums[i + 1] == k:
+            if nums[i] not in pairs and nums[i + 1] not in pairs:
+                pairs[nums[i]] = [nums[i], nums[i + 1]]
 
-    return [pairs[key] for key in pairs]
+    return list(pairs.values())
 
 if __name__ == "__main__":
     # add your own tests here
